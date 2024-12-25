@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Loves</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to bottom, #0F172A, #1E293B);
+            color: white;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #1E293B;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .champion-card {
+            display: inline-block;
+            margin: 15px;
+            background: #374151;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .champion-card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        }
+        .champion-card img {
+            width: 150px;
+            border-radius: 10px;
+        }
+        .champion-card button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background: #6366F1;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .champion-card button:hover {
+            background: #4F46E5;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            padding: 20px;
+            background: #1E293B;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Para minha ana linda viciadinha em lolzinho ❤️</h1>
+        <p>Assim como nas partidas, em um jogo feio de estratégia e risco, eu escolhi te amar, porque com você ao meu lado, sei que sempre vou ter a win (nao literalemnte no jogo), mesmo que o mundo inteiro nos desafie (se é q me entende)</p>
+    </header>
+    <div class="container">
+        <div class="champion-card">
+            <img src="teemo.webp" alt="Jinx">
+            <h3>Teemo</h3>
+            <p></p>
+            <button onclick="showMessage('Se eu fosse o Teemo, eu diria que minha maior armadilha seria te fazer sorrir, pq assim como o veneno que elw carrega, seu sorriso tem o poder de me deixar completamente enfeitiçada e lelé. Tu não é apenas uma armadilha para os inimigos, tu é a armadilha que meu coraçãozinjho não consegue escapar❤️')">clica eu</button>
+        </div>
+        <div class="champion-card">
+            <img src="shyvana.webp" alt="Lux">
+            <h3>Shyvana</h3>
+            <p></p>
+            <button onclick="showMessage('Se eu fosse a Shyvana, mesmo que eu carregasse as chamas de um dinossauro voador, seria seu amor que manteria meu coração verdadeiramente aquecido')">clique</button>
+        </div>
+        <div class="champion-card">
+            <img src="cait.webp" alt="Ahri">
+            <h3>Cait</h3>
+            <p></p>
+            <button onclick="showMessage('Se eu fosse uma bala, seria disparada diretamente pelo seu olhar. Tu é como a caitlyn, precisa de só um único foco para acertar o alvo, e no meu caso, o alvo é o meu coração. Cada movimento seu é calculado com precisão, e eu me sinto completamente perdida, esperando apenas ser seu próximo tiro cwrteiro')">aperte</button>
+        </div>
+    </div>
+    <footer>
+        <p>''uuui'' ''ele gosta''</p>
+    </footer>
+
+    <script>
+        function showMessage(message) {
+            alert(message);
+        }
+    </script>
+</body>
+</html>
